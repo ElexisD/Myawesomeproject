@@ -1,0 +1,61 @@
+body{
+            background:  linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+        }
+        h1{
+            position: relative;
+            top:96px;
+            text-align: left;
+            color: blue;
+                font-size: 15px;
+        }
+        h2{
+            position: relative;
+            top:-46px;
+            text-align: center;
+            font-size:13px;
+        }
+    h3{
+        position: relative;
+        top:-55px;
+        text-align: center;
+        font-size:33px;
+    }
+    h4{
+        position: relative;
+        top:-55px;
+        text-align: center;
+        font-size:16px;
+    }
+    h5{
+        position: relative;
+        top:-165px;
+        text-align: center;
+        font-size: 60px;
+        font-family: sans-serif;
+    }
+    h6{
+        position: relative;
+        top:-147px;
+        text-align: center;
+    }
+    div{
+        position: relative;
+        top:-50px;
+        left: 40px;
+        text-align: center;
+    }
+    li{
+        position: relative;
+        left: -83px;
+        top:-30px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    }
+    form{
+        position: relative;
+        top:-70px;
+        text-align: center;
+        padding:20px;
+        color:blue;
+    }
