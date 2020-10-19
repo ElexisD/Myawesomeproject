@@ -9,6 +9,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b61fde869e.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </head>
 
 <body>
@@ -97,7 +98,6 @@
             axios.get(apiUrl).then(displayWeatherCondition);
         }
 
-
         function handleSubmit(event) {
             event.preventDefault();
             let city = document.querySelector("#city-input").value;
@@ -110,6 +110,12 @@
         searchForm.addEventListener("click", handleSubmit);
         search("new york")
     </script>
+    
+        <a href="https://github.com/ElexisD/Myawesomeproject/tree/main" target="_blank">
+        <p>open-source code 
+    </p>
+</a>
+<p>By Elaine Drennan</p>
 </body>
 
 </html>
